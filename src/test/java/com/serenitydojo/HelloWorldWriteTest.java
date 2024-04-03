@@ -2,10 +2,10 @@ package com.serenitydojo;
 
 import org.junit.Test;
 
-public class HelloWorldWriteTest {
+public class HelloWorldWriterTest {
     @Test
     public void shouldWriteHelloWorldToTheConsole(){
-        HelloWorldWriter Write = new HelloWorldWriter();
-                Write.WriteHelloWorld();
+        HelloWorldWriter writer = new HelloWorldWriter();
+                writer.WriteHelloWorld();
     }
 }
