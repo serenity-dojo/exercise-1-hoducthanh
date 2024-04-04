@@ -1,7 +1,8 @@
 package com.serenitydojo;
 
 public class HelloWorldWriter {
-    public void WriteHelloWorld(){
+
+    public void writeHelloWorld() {
         System.out.println("Hello world!");
     }
 }
