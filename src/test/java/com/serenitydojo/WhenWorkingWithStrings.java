@@ -21,7 +21,7 @@ public class WhenWorkingWithStrings {
 
     @Test
     public void trimExtraSpace() {
-        String Name = "     Serenity-Dojo   abc   def";
+        String Name = "   Serenity-Dojo   abc   def";
         System.out.println(Name);
         String trimSpace = Name.trim();
         System.out.println(trimSpace);
